@@ -68,10 +68,31 @@ main {
 }
 
 .card img {
-    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.top-overlay {
+    position: absolute;
+    width: 130px;
+    height: 25px;
+    background-color: black;
+    opacity: 0.5;
+    line-height: 25px;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 0.5rem;
+}
+
+.username {
+    font-size: small;
+    color: white;
+}
+
+.top-overlay span {
+    color: white;
+    margin-right: 5px;
 }
 
 footer {
